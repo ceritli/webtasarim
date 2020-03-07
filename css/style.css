@@ -1,0 +1,43 @@
+html{
+	font-family:tahoma;
+	font-size:14px;
+}
+ul{
+	list-style: none;
+}
+li{
+	background:#eee;
+	padding:10px 25px;
+	border: 1px solid red;
+	margin-bottom:10px;
+	width:200px;
+}
+li:hover{
+	background:red;
+	color: white;
+}
+a{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+}
+a:visited{
+	color:grey;
+}
+a:hover{
+	color:black;
+	text-decoration:underline;
+}
+div#division{
+	background:url('/img/workplace.jpg') center center no-repeat #eee;
+	background-attachment: fixed;
+	width:100%;
+}
+table.tablomuz{
+	width:50%;
+}
+
+table.tablomuz th{
+	background:#eee;
+	padding:10px;
+}
