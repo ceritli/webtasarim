@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <style type="text/css">
+            div.row{
+                width: 100%;
+                float: left;
+                padding: 20px;
+            }
+            label{
+                width: 100%;
+            }
+            input{
+                clear:both;
+            }
+            div.box{
+                width: 25%;
+                float: left;
+                height: 100px;
+                background: #000;
+                color:#fff;
+                text-align: center;
+            }
+            input{
+                border:solid 1px #eee;
+                border-radius:5px;
+                padding:8px 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="goster.php" method="POST" enctype="multipart/form-data">
+            <div class="row">
+                <label for="ad">
+                    Adınız&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+                </label>
+                <input type="text" name="ad" id="ad" maxlength="20" autocomplete="off" placeholder="Adınızı giriniz" required>
+            </div>
+            <div class="row">
+                <label>
+                    Soyadınız&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+                </label>
+                <input type="text" name="soyad" id="soyad" required>
+            </div>
+            <div class="row">
+                <label for="yas">Yaşınız</label>
+                <select name="yas" id="yas" multiple="multiple" size="5">
+                    <option value="1">13-18</option>
+                    <option value="2">18-25</option>
+                
+                    <option value="3">25-35</option>
+                    <option value="4">35-100</option> <option value="1">13-18</option>
+                    <option value="2" >18-25</option>
+                
+                    <option value="3">25-35</option>
+                    <option value="4">35-100</option> <option value="1">13-18</option>
+                    <option value="2" >18-25</option>
+                
+                    <option value="3">25-35</option>
+                    <option value="4">35-100</option> <option value="1">13-18</option>
+                    <option value="2" >18-25</option>
+                
+                    <option value="3">25-35</option>
+                    <option value="4">35-100</option> <option value="1">13-18</option>
+                    <option value="2" >18-25</option>
+                
+                    <option value="3">25-35</option>
+                    <option value="4">35-100</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="row">
+                <label for="">Mesaj</label>
+                <textarea name="mesaj" id="mesaj" cols="30" rows="10" placeholder="Yazınızı buraya giriniz"></textarea>
+            </div>
+            <div class="row">
+                <input type="image" src="../img/workplace.jpg">
+            </div>
+            <input type="submit" value="Gönder">
+            <input type="submit" value="Gönder 2" formaction="diger.php">
+        </form>
+    </body>
+</html>
